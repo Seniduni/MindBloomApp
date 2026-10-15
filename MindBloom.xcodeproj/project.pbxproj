@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+/* Begin PBXContainerItemProxy section */
+		0FFD80705557A1255E9750BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C754CD07FA796B89B143F8B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7613579A8495615119BD867;
+			remoteInfo = MindBloom;
+		};
+		1885EA160BAC6F6AB61D4872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C754CD07FA796B89B143F8B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7613579A8495615119BD867;
+			remoteInfo = MindBloom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80463E93459E0498C04C0D5 /* MindBloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindBloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D47E072C2A2E47F828EEA65 /* MindBloomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindBloomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C47C560EA0D0C7131A6E602 /* MindBloomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindBloomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FFC310CBEC2B3569709747FE /* MindBloom */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MindBloom;
+			sourceTree = "<group>";
+		};
+		D6318868813404351007339E /* MindBloomTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MindBloomTests;
+			sourceTree = "<group>";
+		};
+		6628CE8CC1574FA28B0A2DB7 /* MindBloomUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MindBloomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4737AAD0DDA2463859B1C090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041261CDE97FD8A62079D9A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB65DFB12613083632C6256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74F8FB22D1E56592589EC856 = {
+			isa = PBXGroup;
+			children = (
+				FFC310CBEC2B3569709747FE /* MindBloom */,
+				D6318868813404351007339E /* MindBloomTests */,
+				6628CE8CC1574FA28B0A2DB7 /* MindBloomUITests */,
+				521EB25D65023B8169B57621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521EB25D65023B8169B57621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80463E93459E0498C04C0D5 /* MindBloom.app */,
+				6D47E072C2A2E47F828EEA65 /* MindBloomTests.xctest */,
+				3C47C560EA0D0C7131A6E602 /* MindBloomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7613579A8495615119BD867 /* MindBloom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E97BC2435AF1F0A5FF1B48 /* Build configuration list for PBXNativeTarget "MindBloom" */;
+			buildPhases = (
+				8079DA94A3E942B9FCDDE3CF /* Sources */,
+				4737AAD0DDA2463859B1C090 /* Frameworks */,
+				6D6F0A78DB9E460175F17F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FFC310CBEC2B3569709747FE /* MindBloom */,
+			);
+			name = MindBloom;
+			packageProductDependencies = (
+			);
+			productName = MindBloom;
+			productReference = A80463E93459E0498C04C0D5 /* MindBloom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C08CE43C09AD934B2491BC55 /* MindBloomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026537446F0EB89DB27C8FAF /* Build configuration list for PBXNativeTarget "MindBloomTests" */;
+			buildPhases = (
+				B953FAB377DE2CFEEDB6A9E9 /* Sources */,
+				041261CDE97FD8A62079D9A8 /* Frameworks */,
+				5040F943E4011B191A361F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FEDC7EFE6EF03DB2AD3155 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6318868813404351007339E /* MindBloomTests */,
+			);
+			name = MindBloomTests;
+			packageProductDependencies = (
+			);
+			productName = MindBloomTests;
+			productReference = 6D47E072C2A2E47F828EEA65 /* MindBloomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EAB5C3031356AEAB5960453 /* MindBloomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBA0E5F8897B824F12712A4 /* Build configuration list for PBXNativeTarget "MindBloomUITests" */;
+			buildPhases = (
+				700803FC0767BF587E23FFF5 /* Sources */,
+				FAB65DFB12613083632C6256 /* Frameworks */,
+				9C8B6F0851FFDF77B64973F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906AB11851932FDE50D2031E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6628CE8CC1574FA28B0A2DB7 /* MindBloomUITests */,
+			);
+			name = MindBloomUITests;
+			packageProductDependencies = (
+			);
+			productName = MindBloomUITests;
+			productReference = 3C47C560EA0D0C7131A6E602 /* MindBloomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C754CD07FA796B89B143F8B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B7613579A8495615119BD867 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C08CE43C09AD934B2491BC55 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B7613579A8495615119BD867;
+					};
+					1EAB5C3031356AEAB5960453 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B7613579A8495615119BD867;
+					};
+				};
+			};
+			buildConfigurationList = A5725EB1A479FF059394A685 /* Build configuration list for PBXProject "MindBloom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F8FB22D1E56592589EC856;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 521EB25D65023B8169B57621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7613579A8495615119BD867 /* MindBloom */,
+				C08CE43C09AD934B2491BC55 /* MindBloomTests */,
+				1EAB5C3031356AEAB5960453 /* MindBloomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D6F0A78DB9E460175F17F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5040F943E4011B191A361F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8B6F0851FFDF77B64973F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8079DA94A3E942B9FCDDE3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B953FAB377DE2CFEEDB6A9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700803FC0767BF587E23FFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9FEDC7EFE6EF03DB2AD3155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7613579A8495615119BD867 /* MindBloom */;
+			targetProxy = 0FFD80705557A1255E9750BE /* PBXContainerItemProxy */;
+		};
+		906AB11851932FDE50D2031E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7613579A8495615119BD867 /* MindBloom */;
+			targetProxy = 1885EA160BAC6F6AB61D4872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6FE18865E9B1CCECE84FCFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		C1C0934827CF6FE7E01D0728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Release;
+		};
+		219C824ED45034328A5D1253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mind Bloom";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mindbloom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Debug;
+		};
+		F42B4ABC9F28E8D7BFBE04C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mind Bloom";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mindbloom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Release;
+		};
+		A6876278C4364A1C25E648B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mindbloom.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindBloom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindBloom";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Debug;
+		};
+		47525DA8905335DED6D1AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mindbloom.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindBloom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindBloom";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Release;
+		};
+		090E227BC28817C18F4FF6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mindbloom.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MindBloom;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Debug;
+		};
+		E9FE1003196A9F9D1DE54CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mindbloom.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MindBloom;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5725EB1A479FF059394A685 /* Build configuration list for PBXProject "MindBloom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FE18865E9B1CCECE84FCFA /* Debug */,
+				C1C0934827CF6FE7E01D0728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E97BC2435AF1F0A5FF1B48 /* Build configuration list for PBXNativeTarget "MindBloom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219C824ED45034328A5D1253 /* Debug */,
+				F42B4ABC9F28E8D7BFBE04C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026537446F0EB89DB27C8FAF /* Build configuration list for PBXNativeTarget "MindBloomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6876278C4364A1C25E648B5 /* Debug */,
+				47525DA8905335DED6D1AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBA0E5F8897B824F12712A4 /* Build configuration list for PBXNativeTarget "MindBloomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090E227BC28817C18F4FF6D9 /* Debug */,
+				E9FE1003196A9F9D1DE54CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C754CD07FA796B89B143F8B3 /* Project object */;
+}
